@@ -1,0 +1,5 @@
+A = set(map(int,input('A = ').split(',')))
+B = set(map(int,input('B = ').split(',')))
+print('Intersecţia mulţimilor =', A.intersection(B))
+print('Reuniunea mulţimilor =', A.union(B))
+print('Diferenţa mulţimilor =',A.difference(B), B.difference(A))
